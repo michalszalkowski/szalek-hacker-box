@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+CMD=$@
+docker run -t --rm=true szalek/hacker-box "$CMD"
