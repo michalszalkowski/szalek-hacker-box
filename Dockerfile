@@ -5,7 +5,8 @@ MAINTAINER michalszalkowski.com
 RUN apt-get update && \
     apt-get install -y git  && \
     apt-get install -y python-pip && \
-    apt-get install -y sqlmap
+    apt-get install -y sqlmap && \
+    apt-get install -y nmap
 
 # xsssniper
 RUN cd /home && \
