@@ -23,7 +23,7 @@ RUN wget https://github.com/Arachni/arachni/releases/download/v1.5.1/arachni-1.5
         mv arachni-1.5.1-0.5.12 /usr/local && \
         ln -s /usr/local/arachni-1.5.1-0.5.12/bin/* /usr/local/bin/
 
-# ssl
+# sslyze
 RUN python -m pip install --upgrade pip && \
     pip install --upgrade setuptools && \
     pip install --upgrade sslyze
