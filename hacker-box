@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 CMD=$@
+echo $CMD >> /tmp/hacker-box.log
 docker run -t --rm=true szalek/hacker-box "$CMD"
